@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>Task Performed:
+   *Add Medicines
+   *View Medicines
+   *Medicines Managment
+   *Sell Medicines
+
+
+Admin is the role with 
+the highest
+level of access.
+
+admin can add content
+add access 
+all items in the 
+admin Toolbar.
+</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>Task Performed:
+   *Add Medicines
+   *View Medicines
+   *Medicines Managment
+   *Sell Medicines
+
+
+Admin is the role with 
+the highest
+level of access.
+
+admin can add content
+add access 
+all items in the 
+admin Toolbar.
+</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>Task Performed:
+    *Add Users
+    *View Users
+    *Profile Managment
+
+
+Admin is the role with 
+the highest
+level of access.
+
+admin can add content
+add access 
+all items in the 
+admin Toolbar.
+</value>
+  </data>
+</root>
